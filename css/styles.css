@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #8C5F41;
+    --secondary-color: #E2C7B4;
+    --third-color: #c0b6b0;
+    --bg-color: #b3948b;
+    --bg-color-light:#EEE9E2;
+    --font-heading-handwritting: Lucida Handwriting;;
+    --font-handwritting: URW Chancery L, cursive;
+  }
+body{
+    background-color: var(--bg-color);
+}
+main {
+  background-color: var(--bg-color-light);
+  text-align: center;
+}
+main h1 {
+  font-family: var(--font-heading-handwritting);
+  padding-top: 20px;
+  color: var(--primary-color);
+}
+main button {
+  background-color: var(--secondary-color);
+  border-radius: 25px;
+  border-width: 1px;
+  border-color: black;
+  font-family: var(--font-handwritting);
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+main div{
+  border-radius: 20px;
+  background: var(--third-color);
+  position: relative;
+  width: 50%;
+  left: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+main div *{
+  margin-right: 20px;
+}
+
+#lista{
+  font-family: var(--font-handwritting);
+  list-style: none;
+}
+#lista li{
+  padding-top: 10px;
+}
